@@ -24,9 +24,9 @@ jobs:
         python -m pip install --upgrade pip
         pip install requests
 
-    - name: Run python scripts
+    - name: Run Python script
       run: |
-        python bitcoin_prices.py
+        python bitcoin_price.py
 
     - name: Commit changes
       env:
