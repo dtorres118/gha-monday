@@ -26,7 +26,7 @@ jobs:
 
     - name: Run python scripts
       run: |
-        python bitcoin.prices.py
+        python bitcoin_prices.py
 
     - name: Commit changes
       env:
