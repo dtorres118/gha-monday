@@ -34,3 +34,5 @@ def main():
         print(f"Recorded at {timestamp}: ${price}")
     else:
         print(f"Failed to record at {timestamp}")
+if __name__ == "__main__":
+    main()
